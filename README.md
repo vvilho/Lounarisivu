@@ -1,3 +1,3 @@
 # Lounarisivu
 
-Check it out <a href="https://vvilho.github.io/Lounarisivu/">
+Check it out https://vvilho.github.io/Lounarisivu/
