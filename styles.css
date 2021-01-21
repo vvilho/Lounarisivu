@@ -24,8 +24,10 @@
     --hoverLinkki: #E0437C;
 }
 
-body {
+html, body {
     margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 nav {
@@ -57,9 +59,9 @@ nav {
 .links a:hover {
 
     color: var(--hoverLinkki);
-    text-decoration: underline;
     border: solid 1px var(--hoverLinkki);
     border-radius: 3%;
+    margin: -1px;
 
 }
 
@@ -112,6 +114,7 @@ header {
 .headerImage {
     height: inherit;
     background-image: url("black-frying-pan-with-spaghetti-sauce-near-brown-wooden-691114.jpg");
+
     background-size: 135%;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,11 +153,15 @@ header {
     margin: 5vh;
 
 }
+.mainText h2 {
+    font-family: LatoBold;
+}
 
 .mainText p {
     margin: 0 !important;
     font-family: LatoRegular;
     font-size: 1.5em;
+    line-height: 1.5;
 }
 
 .ravintolat {
@@ -208,11 +215,10 @@ header {
     top: 10px;
     font-family: LatoRegular;
     font-size: 0.88em;
-
 }
 .menuText {
     font-family: LatoRegular;
-    font-size: 0.625em;
+    font-size: 1em;
 }
 .fa-map-marker-alt {
     position: relative;
