@@ -2,18 +2,18 @@
 
 @font-face {
     font-family: LatoBlack ;
-    src: url("./fonts/Lato-Black.ttf") format('truetype');
+    src: url("fonts/Lato-Black.ttf") format('truetype');
 }
 
 @font-face {
     font-family: LatoBold;
-    src: url("./fonts/Lato-Bold.ttf") format('truetype');
+    src: url("fonts/Lato-Bold.ttf") format('truetype');
 
 }
 
 @font-face {
     font-family: LatoRegular;
-    src: url("./fonts/Lato-Regular.ttf") format('truetype');
+    src: url("fonts/Lato-Regular.ttf") format('truetype');
 
 }
 
